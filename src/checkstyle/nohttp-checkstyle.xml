@@ -7,4 +7,14 @@
 	<module name="SuppressionFilter">
 		<property name="file" value="${config_loc}/nohttp-checkstyle-suppressions.xml"/>
 	</module>
+	<module name="TreeWalker">
+		<!-- Disable checks as needed -->
+		<module name="JavadocPackage" severity="ignore"/>
+		<module name="JavadocMethod" severity="ignore"/>
+		<module name="JavadocVariable" severity="ignore"/>
+		<module name="LineLength">
+			<property name="severity" value="ignore"/>
+		</module>
+		<!-- Add more modules and properties as needed -->
+	</module>
 </module>
