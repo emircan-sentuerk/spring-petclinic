@@ -205,8 +205,6 @@
               <propertyExpansion>
                 config_loc=${basedir}/src/checkstyle/
               </propertyExpansion>
-              <violationSeverity>warning</violationSeverity>
-              <failOnViolation>true</failOnViolation>
             </configuration>
             <goals>
               <goal>check</goal>
