@@ -19,15 +19,6 @@
       <name>GitHub Packages</name>
       <url>https://maven.pkg.github.com/emircan-sentuerk/spring-petclinic</url>
     </repository>
-  <settings>
-    <servers>
-      <server>
-        <id>github</id>
-        <username>YOUR_GITHUB_USERNAME</username>
-        <password>YOUR_GITHUB_PERSONAL_ACCESS_TOKEN</password>
-      </server>
-    </servers>
-  </settings>
 
   <properties>
     <start-class>org.springframework.samples.petclinic.PetClinicApplication</start-class>
