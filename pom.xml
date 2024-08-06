@@ -15,7 +15,7 @@
   <name>petclinic</name>
 
   <properties>
-
+    <start-class>org.springframework.samples.petclinic.PetClinicApplication</start-class>
     <!-- Generic properties -->
     <java.version>17</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
