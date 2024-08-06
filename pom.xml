@@ -17,8 +17,13 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://github.com/emircan-sentuerk/spring-petclinic</url>
+      <url>https://maven.pkg.github.com/emircan-sentuerk/spring-petclinic</url>
     </repository>
+    <snapshotRepository>
+      <id>github</id>
+      <name>GitHub Snapshots</name>
+      <url>https://maven.pkg.github.com/emircan-sentuerk/spring-petclinic</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <properties>
