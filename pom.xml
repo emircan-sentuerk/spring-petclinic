@@ -19,6 +19,7 @@
       <name>GitHub Packages</name>
       <url>https://maven.pkg.github.com/emircan-sentuerk/spring-petclinic</url>
     </repository>
+  </distributionManagement>
 
   <properties>
     <start-class>org.springframework.samples.petclinic.PetClinicApplication</start-class>
