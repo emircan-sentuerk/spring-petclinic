@@ -207,7 +207,7 @@
             <phase>validate</phase>
             <configuration>
               <configLocation>src/checkstyle/nohttp-checkstyle.xml</configLocation>
-              <sourceDirectories>${project.build.sourceDirectory}</sourceDirectories>
+              <sourceDirectories>${basedir}</sourceDirectories>
               <includes>**/*</includes>
               <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/*.class</excludes>
               <propertyExpansion>
