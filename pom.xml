@@ -211,7 +211,7 @@
               <includes>**/*</includes>
               <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/*.class</excludes>
               <propertyExpansion>
-                config_loc=${${project.build.sourceDirectory}}/src/checkstyle/
+                config_loc=${project.build.sourceDirectory}/src/checkstyle/
               </propertyExpansion>
             </configuration>
             <goals>
@@ -374,8 +374,8 @@
               </execution>
             </executions>
             <configuration>
-              <inputPath>${${project.build.sourceDirectory}}/src/main/scss/</inputPath>
-              <outputPath>${${project.build.sourceDirectory}}/src/main/resources/static/resources/css/</outputPath>
+              <inputPath>${project.build.sourceDirectory}/src/main/scss/</inputPath>
+              <outputPath>${project.build.sourceDirectory}/src/main/resources/static/resources/css/</outputPath>
               <includePath>
                 ${project.build.directory}/webjars/META-INF/resources/webjars/bootstrap/${webjars-bootstrap.version}/scss/</includePath>
             </configuration>
