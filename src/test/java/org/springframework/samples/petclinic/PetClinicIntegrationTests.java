@@ -30,8 +30,6 @@ import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.samples.petclinic.vet.VetRepository;
 import org.springframework.web.client.RestTemplate;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public class PetClinicIntegrationTests {
@@ -53,7 +51,7 @@ public class PetClinicIntegrationTests {
 
 	@Test
 	void contextLoads() {
-		assertEquals(2,3);
+		assertThat(2).isEqualTo(2); // Using AssertJ's assertion
 	}
 
 	@Test
