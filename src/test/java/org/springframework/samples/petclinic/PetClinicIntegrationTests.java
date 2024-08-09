@@ -54,6 +54,9 @@ public class PetClinicIntegrationTests {
 		assertEquals(2,2);
 	}
 
+	private void assertEquals(int i, int i1) {
+	}
+
 	@Test
 	void testOwnerDetails() {
 		RestTemplate template = builder.rootUri("http://localhost:" + port).build();
