@@ -51,7 +51,7 @@ public class PetClinicIntegrationTests {
 
 	@Test
 	void contextLoads() {
-		assertThat(2).isEqualTo(2); // Using AssertJ's assertion
+		assertThat(2).isEqualTo(2);
 	}
 
 	@Test
